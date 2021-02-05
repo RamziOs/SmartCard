@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bank_accounts",
+  "info": {
+    "name": "BankAccount",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "UserName": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "Balance": {
+      "type": "float"
+    },
+    "IDNumber": {
+      "type": "string"
+    }
+  }
+}
